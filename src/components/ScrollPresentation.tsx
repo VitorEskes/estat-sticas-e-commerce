@@ -64,6 +64,16 @@ const ScrollPresentation: React.FC<ScrollPresentationProps> = ({ isOpen, onClose
       id: 9,
       image: '9.png',
       position: "full"
+    },
+    {
+      id: 10,
+      image: '10.png',
+      position: "full"
+    },
+    {
+      id: 11,
+      image: '11.png',
+      position: "full"
     }
   ];
 
