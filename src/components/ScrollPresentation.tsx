@@ -215,7 +215,7 @@ const ScrollPresentation: React.FC<ScrollPresentationProps> = ({ isOpen, onClose
                 `}
                 style={{
                   backgroundImage: `url(${slide.image})`,
-                  backgroundSize: 'cover',
+                  backgroundSize: 'contain',
                   backgroundPosition: 'center'
                 }}
               >
