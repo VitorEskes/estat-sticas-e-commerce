@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Search, ShoppingCart, Presentation } from 'lucide-react';
 import ScrollPresentation from './ScrollPresentation';
 
@@ -34,7 +35,10 @@ export default function Navbar() {
         <div className="container max-w-6xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <Link href="/">
-              <div className="font-bold text-2xl cursor-pointer">TechExpress</div>
+              <div className="flex items-center cursor-pointer">
+                <Image src="/logo.png" alt="TechExpress Logo" width={50} height={40} />
+                <span className="ml-2 text-xl font-bold">TechExpress</span>
+              </div>
             </Link>
             
             <div className="hidden md:flex space-x-8">
